@@ -2,8 +2,6 @@
 
 Esta aplicacion hace un login de usuarios con firebase, para ello utiliza los scripts de AuthActivity y HomeActivity.
 
-### La versión completa está en la rama develop!!!
-
 # En qué fijarme...
 Lo interesante está dentro de app/src/main. 
 
