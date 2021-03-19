@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="332dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <TextView
+        android:id="@+id/providerTextView"
+        android:layout_width="330dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="50dp"
+        android:text="Proveedor"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextView"
+        tools:layout_editor_absoluteX="41dp" />
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="306dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="120dp"
+        android:text="Cerrar Sesion"
+        app:layout_constraintTop_toBottomOf="@+id/providerTextView"
+        tools:layout_editor_absoluteX="52dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
